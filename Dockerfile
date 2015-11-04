@@ -8,11 +8,12 @@ RUN echo "Running Jiffy self-contained installers" && \
 COPY var/tmp/docker/jiffy/tarballs/selfcontained /var/tmp/jiffy
 
 ADD install.sh /install.sh
-RUN /install.sh
-
 ADD run.sh /run.sh
 
-CMD ["/run.sh"]
+#RUN /install.sh
+#
+#
+#CMD ["/run.sh"]
 #-----------
 #Automated created below and added by Jiffy
 
