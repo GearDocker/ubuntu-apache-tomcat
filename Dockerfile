@@ -17,9 +17,9 @@ ADD run.sh /run.sh
 #-----------
 #Automated created below and added by Jiffy
 
-RUN /install.sh /var/tmp/jiffy/10005.Base.v1.tar.gz
-RUN /install.sh /var/tmp/jiffy/10010.Ubuntu_Base.v1.tar.gz
-RUN /install.sh /var/tmp/jiffy/10015.Ubuntu_Apache_Tomcat.v1.tar.gz
+RUN /install.sh 10005.Base.v1.tar.gz
+RUN /install.sh 10010.Ubuntu_Base.v1.tar.gz
+RUN /install.sh 10015.Ubuntu_Apache_Tomcat.v1.tar.gz
 CMD ["/run.sh"]
 
 #-----------
